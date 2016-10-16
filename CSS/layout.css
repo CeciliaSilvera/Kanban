@@ -1,0 +1,21 @@
+﻿.note{
+    font-size:18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid lightgray;
+    border-radius:7px;
+    padding: 0.5em;
+    font-style:italic;
+}
+#wrapper{
+    margin:20px;
+    padding:40px;
+    background-color:whitesmoke;
+    border-radius:7px;
+    border:ridge;
+}
+.board{
+    border: 1px solid lightgray;
+    border-radius:7px;
+    padding:1em;
+    min-height:500px;
+}
