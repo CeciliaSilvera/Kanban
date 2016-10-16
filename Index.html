@@ -9,14 +9,14 @@
     <base href="/" />
 </head>
 <body ng-controller="MainController">
-    <header ng-include="'Views/Partials/Navbar.html'"></header>
     <main ng-view class="container-fluid"></main>
 
     <!--Third Party Stuff-->
     <script src="Scripts/angular.js"></script>
     <script src="Scripts/angular-route.js"></script>
-    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/jquery-3.1.1.js"></script>
     <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/jquery-ui-1.12.1.js"></script>
     <!--Misc-->
     <!--Modules-->
     <script src="Scripts/Modules/baseModule.js"></script>
@@ -25,6 +25,9 @@
     <!--Controllers-->
     <script src="Scripts/Controllers/home.controller.js"></script>
     <script src="Scripts/Controllers/main.controller.js"></script>
+    <!--Components-->
+    <script src="Scripts/Components/Note/note.component.js"></script>
+    <script src="Scripts/Components/Board/board.component.js"></script>
 
 </body>
 </html>

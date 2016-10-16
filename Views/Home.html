@@ -1,5 +1,24 @@
-﻿<div class="row">
-    <div class="col-md-12">
-        <h1 ng-bind="title"></h1>
+﻿<div id="wrapper">
+    <div class="row">
+        <div class="col-md-12 panel-heading">
+            <h1 ng-bind="title"></h1>
+        </div>
+    </div>
+    <div class="row notes-section">
+        <div class="col-md-12">
+            <div class="col-md-2">
+                <note id="1" body="'Basic marcup'" class="col-md-12"></note>
+                <note id="2" body="'Fix Navbar'" class="col-md-12"></note>
+                <note id="3" body="'Login section'" class="col-md-12"></note>
+            </div>
+        </div>
+    </div>
+    <div class="row board-section">
+        <div class="col-md-12">
+            <board class="col-md-4" id="1"></board>
+            <board class="col-md-4" id="2"></board>
+            <board class="col-md-4" id="3"></board>
+
+        </div>
     </div>
 </div>

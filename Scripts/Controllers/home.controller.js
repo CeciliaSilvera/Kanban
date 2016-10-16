@@ -5,6 +5,6 @@ angular.module("baseModule")
     .controller("HomeController", [
         "$scope",
         function ($scope) {
-            $scope.title = "Home";
+            $scope.title = "Kanban";
         }
     ]);
